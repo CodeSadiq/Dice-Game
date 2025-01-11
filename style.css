@@ -1,0 +1,267 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+*{
+    background-color: #34353e;
+}
+.bodycontainer{
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    gap: 4rem;
+}
+.dicecontainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 1rem;
+    gap: 3rem;
+}
+
+
+.heading{
+    display:flex;
+    flex-direction: row;
+    justify-content:center ;
+    height: 11rem;
+    font-family: "Jersey 15", serif;
+    font-weight: 400;
+    font-size: 8rem;
+    font-style: normal;
+    color: #808080;
+}
+img{
+    width: 10rem;
+}
+.dicebox{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    width: 15rem;
+    height: 16rem;
+    font-family: "Jersey 15", serif;
+    font-weight: 400;
+    font-size: 1.5rem;
+    font-style: normal;
+    color: #808080;
+}
+
+.buttoncontainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 4rem;
+    width: 28rem;
+    gap:9rem;
+    font-family: "Jersey 15", serif;
+    font-weight: 400;
+    font-size: 2.5rem;
+    font-style: normal;
+    color: #34353e;
+}
+.button *{
+    background-color: #808080 ;
+    width: 8.5rem;
+    height: fit-content;
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    border-radius: 7px;
+    user-select: none;
+    cursor: pointer;
+}
+.button{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 4rem;
+    width: 10rem;
+}
+.playbuttonpressed {
+   margin-top: -0.3rem;
+   margin-left: -0.3rem;
+   background-color: #808080a5;
+}
+.restartbuttonpressed{
+    margin-top: -0.3rem;
+   margin-left: -0.3rem;
+   background-color: #808080a5;
+}
+footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 6rem;
+    color: #808080;
+}
+
+.picture1up{
+    position: relative;
+    top: -1rem;
+    left: -1rem;
+}
+
+.picture1down{
+    position: relative;
+    top: 1rem; 
+    left: 1rem;
+}
+
+.picture2up{
+    position: relative;
+    top: -1rem;
+    left: -1rem;
+}
+
+.picture2down{
+    position: relative;
+    top: 1rem; 
+    left: 1rem;
+}
+.heading2{
+    display:flex;
+    flex-direction: row;
+    justify-content:center ;
+    font-family: "Jersey 15", serif;
+    font-weight: 400;
+    font-size: 11rem;
+    font-style: normal;
+    color: #808080;
+}
+
+/*  Media query for responsiveness of the website */
+/*  Media query for responsiveness of the website */
+
+@media (max-width: 1024px) {
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+    .heading{
+        display:flex;
+        flex-direction: row;
+        justify-content:center ;
+        height: 6rem;
+        font-family: "Jersey 15", serif;
+        font-weight: 400;
+        font-size: 4rem;
+        font-style: normal;
+        color: #808080;
+    }
+    .bodycontainer{
+        display: flex;
+        flex-direction:column;
+        align-items: center;
+        gap: 2rem;
+    }
+
+    .dicecontainer{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        margin-top: 1rem;
+        gap: 0rem;
+    }
+
+    .dicebox{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 1rem;
+        width: 12rem;
+        height: 16rem;
+        font-family: "Jersey 15", serif;
+        font-weight: 400;
+        font-size: 1.5rem;
+        font-style: normal;
+        color: #808080;
+    }
+    .picture{
+        width: 6rem;
+    }
+
+    .picture1up{
+        position: relative;
+        top: -1rem;
+        left: -1rem;
+    }
+    
+    .picture1down{
+        position: relative;
+        top: 1rem; 
+        left: 1rem;
+    }
+    
+    .picture2up{
+        position: relative;
+        top: -1rem;
+        left: -1rem;
+    }
+    
+    .picture2down{
+        position: relative;
+        top: 1rem; 
+        left: 1rem;
+    }
+
+    .buttoncontainer{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 12rem;
+        width: 25rem;
+        gap:2rem;
+        font-family: "Jersey 15", serif;
+        font-weight: 400;
+        font-size: 2.5rem;
+        font-style: normal;
+        color: #34353e;
+    }
+
+    .button *{
+        background-color: #808080 ;
+        width: 8.5rem;
+        height: fit-content;
+        display:flex;
+        flex-direction: row;
+        justify-content: center;
+        border-radius: 7px;
+        user-select: none;
+        cursor: pointer;
+    }
+    .button{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        height: 4rem;
+        width: 10rem;
+    }
+    .playbuttonpressed {
+       margin-top: -0.3rem;
+       margin-left: -0.3rem;
+       background-color: #808080a5;
+    }
+    .restartbuttonpressed{
+        margin-top: -0.3rem;
+       margin-left: -0.3rem;
+       background-color: #808080a5;
+    }
+    footer{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        margin-top: 2rem;
+        color: #808080;
+    }
+}
